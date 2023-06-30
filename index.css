@@ -16,7 +16,6 @@ body{
 /* HEADER CONFIGURATION */
 .header{
     display: flex;
-    width: 100%;
     background-color: rgb(193, 242, 233);
 }
 .header img{
@@ -28,7 +27,7 @@ body{
     margin-right: auto;
 }
 .header h1{
-    width: 100%:
+    width: 100%;
     font-size: 2.5rem;
     margin: auto;
     font-family: system-ui;
@@ -52,21 +51,21 @@ body{
     font-family: system-ui;
 }
 .addition legend{
-    font-size: 1.7rem;
+    font-size: 2.2rem;
     margin: 0 auto;
     font-weight: bold;
 }
 .addition label{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
 }
 .addition input{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .addition .AdditionResult{
     text-decoration: underline;
 }
 .addition .AdditionDelete{
-    font-size: 1rem;
+    font-size: 1.4rem;
     background-color: #ffbb00d4;
     text-align: center;
     align-items: center;
@@ -74,7 +73,7 @@ body{
     margin-bottom: 10%;
 }
 .addition output{
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -91,21 +90,21 @@ body{
     font-family: system-ui;
 }
 .subtraction legend{
-    font-size: 1.7rem;
+    font-size: 2.2rem;
     margin: 0 auto;
     font-weight: bold;
 }
 .subtraction label{
-    font-size: 1rem;
+    font-size: 1.6rem;
 }
 .subtraction input{
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .subtraction .SubtractionResult{
     text-decoration: underline;
 }
 .subtraction .SubtractionDelete{
-    font-size: .8rem;
+    font-size: 1.4rem;
     background-color: #ffbb00d4;
     text-align: center;
     align-items: center;
@@ -113,7 +112,7 @@ body{
     margin-bottom: 10%;
 }
 .subtraction output{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -130,21 +129,21 @@ body{
     font-family: system-ui;
 }
 .multiplication legend{
-    font-size: 1.7rem;
+    font-size: 2.2rem;
     margin: 0 auto;
     font-weight: bold;
 }
 .multiplication label{
-    font-size: 1rem;
+    font-size: 1.6rem;
 }
 .multiplication input{
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .multiplication .MultiplicationResult{
     text-decoration: underline;
 }
 .multiplication .MultiplicationDelete{
-    font-size: .8rem;
+    font-size: 1.4rem;
     background-color: #ffbb00d4;
     text-align: center;
     align-items: center;
@@ -152,7 +151,7 @@ body{
     margin-bottom: 10%;
 }
 .multiplication output{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -171,21 +170,21 @@ body{
     font-family: system-ui;
 }
 .division legend{
-    font-size: 1.7rem;
+    font-size: 2.2rem;
     margin: 0 auto;
     font-weight: bold;
 }
 .division label{
-    font-size: 1rem;
+    font-size: 1.6rem;
 }
 .division input{
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .division .DivisionResult{
     text-decoration: underline;
 }
 .division .DivisionDelete{
-    font-size: .8rem;
+    font-size: 1.4rem;
     background-color: #ffbb00d4;
     text-align: center;
     align-items: center;
@@ -193,6 +192,6 @@ body{
     margin-bottom: 10%;
 }
 .division output{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
