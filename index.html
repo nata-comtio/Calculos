@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.icons8.com/external-flat-circular-vectorslab/100/external-Calculator-business-and-finance-flat-circular-vectorslab.png" alt="Calculadora">
+    <title>Cálculos</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- ------------------------------------ HEADER ------------------------------------------->
+    <header class="header">
+        <img src="https://img.icons8.com/external-flat-circular-vectorslab/1000/external-Calculator-business-and-finance-flat-circular-vectorslab.png" alt="calculadora">
+        <h1>Calculadora Simples</h1>
+    </header>
+    <!------------------------------------- HEADER END ----------------------------------------->
+
+
+
+    <!-- ------------------------------------- MAIN -------------------------------------------->
+    <main>
+        <!--addition-->
+        <form oninput="AdditionResult.value=parseFloat(FirstAddition.value)+parseFloat(SecondAddition.value)" class="AdditionForm" id="AdditionForm">
+            <fieldset class="addition" id="addition">
+                <legend>SOMA</legend>
+                    <br>
+                <label for="FirstAddition">Primeiro número:</label>
+                <input class="FirstAddition" type="text" id="FirstAddition" name="FirstAddition" value="" /> 
+                    <br>  
+                    <br>  
+                <label for="SecondAddition">Segundo número:</label>
+                <input class="SecondAddition" type="text" id="SecondAddition" name="SecondAddition" value=""/> 
+                    <br>  
+                    <br> 
+                <label for="AdditionResult">Resultado:</label>
+                <output class="AdditionResult" type="text" id="AdditionResult" name="AdditionResult"></output>
+                    <br>  
+                    <br> 
+                <input class="AdditionDelete" type="reset" value=" Limpar " >
+            </fieldset>
+        </form>
+
+        <!--subtraction-->
+        <form oninput="SubtractionResult.value=parseFloat(FirstSubtraction.value)-parseFloat(SecondSubtraction.value)" class="SubtractionForm" id="SubtractionForm">
+            <fieldset class="subtraction" id="subtraction">
+                <legend>SUBTRAÇÃO</legend>
+                    <br>
+                <label for="FirstSubtraction">Primeiro número:</label>
+                <input class="FirstSubtraction" type="text" id="FirstSubtraction" name="FirstSubtraction" value=""/> 
+                    <br>  
+                    <br>  
+                <label for="SecondSubtraction">Segundo número:</label>
+                <input class="SecondSubtraction" type="text" id="SecondSubtraction" name="SecondSubtraction" value=""/> 
+                    <br>  
+                    <br> 
+                <label for="SubtractionResult">Resultado:</label>
+                <output class="SubtractionResult" type="text" id="SubtractionResult" name="SubtractionResult"></output>
+                    <br>  
+                    <br> 
+                <input class="SubtractionDelete" type="reset" value=" Limpar " >
+            </fieldset>
+        </form>
+
+        <!--multiplication-->
+        <form oninput="MultiplicationResult.value=parseFloat(FirstMultiplication.value)*parseFloat(SecondMultiplication.value)" class="MultiplicationForm" name="MultiplicationForm" id="MultiplicationForm">
+            <fieldset class="multiplication" id="multiplication">
+                <legend>MULTIPLICAÇÃO</legend>
+                    <br>
+                <label for="FirstMultiplication">Primeiro número:</label>
+                <input class="FirstMultiplication" type="text" id="FirstMultiplication" name="FirstMultiplication" value=""/> 
+                    <br>  
+                    <br>  
+                <label for="SecondMultiplication">Segundo número:</label>
+                <input class="SecondMultiplication" type="text" id="SecondMultiplication" name="SecondMultiplication" value=""/> 
+                    <br>  
+                    <br> 
+                <label for="MultiplicationResult">Resultado:</label>
+                <output class="MultiplicationResult" type="text" id="MultiplicationResult" name="MultiplicationResult"></output>
+                    <br>  
+                    <br> 
+                <input class="MultiplicationDelete" type="reset" value=" Limpar " >
+            </fieldset>
+        </form>
+
+        <!--Division-->
+        <form oninput="DivisionResult.value=parseFloat(FirstDivision.value)/parseFloat(SecondDivision.value)" class="DivisionForm" id="DivisionForm">
+            <fieldset class="division" id="division">
+                <legend>DIVISÃO</legend>
+                    <br>
+                <label for="FirstDivision">Primeiro número:</label>
+                <input class="FirstDivision" type="text" id="FirstDivision" name="FirstDivision" value=""/> 
+                    <br>  
+                    <br>  
+                <label for="SecondDivision">Segundo número:</label>
+                <input class="SecondDivision" type="text" id="SecondDivision" name="SecondDivision" value=""/> 
+                    <br>  
+                    <br> 
+                <label for="DivisionResult">Resultado:</label>
+                <output class="DivisionResult" type="text" id="DivisionResult" name="DivisionResult"></output>
+                    <br>  
+                    <br> 
+                <input class="DivisionDelete" type="reset" value=" Limpar " >
+            </fieldset>
+        </form>
+    </main>
+    <!-- ---------------------------------- MAIN END ----------------------------------------->
+</body>
+</html>
