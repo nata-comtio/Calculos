@@ -51,7 +51,7 @@ body{
     font-family: system-ui;
 }
 .addition legend{
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin: 0 auto;
     font-weight: bold;
 }
@@ -90,7 +90,7 @@ body{
     font-family: system-ui;
 }
 .subtraction legend{
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin: 0 auto;
     font-weight: bold;
 }
@@ -129,7 +129,7 @@ body{
     font-family: system-ui;
 }
 .multiplication legend{
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin: 0 auto;
     font-weight: bold;
 }
@@ -170,7 +170,7 @@ body{
     font-family: system-ui;
 }
 .division legend{
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin: 0 auto;
     font-weight: bold;
 }
